@@ -12,27 +12,28 @@ public class CameraFollow : MonoBehaviour
 {
 
     public GameObject chonk; //put chonk in the space shown in the editor please
-    Camera mainCam;
     Vector2 diffVector = Vector2.zero;
-    float partialDistance;
+    float awayFromCenter = 3.5f;
+
     void Start()
     {
-        mainCam = Camera.main;
-        partialDistance = 0;
     }
 
     void Update()
     {
+        //todo: make the camera follow chonk better.  currently there's a stutter 
+        //i also want to separate the camera x and y movements
         diffVector = chonk.transform.position - Camera.main.transform.position;
-        if(diffVector.magnitude > 4){
+        
+        if(diffVector.x > awayFromCenter){
             MoveCamera();
         }
+        
     }
 
     void MoveCamera(){
         //if chonk is too far from camera center start moving in that direction to try to keep chonk centered
-        
-        Camera.main.transform.Translate(Vector3.Lerp(Camera.main.transform.position, diffVector, partialDistance));
+        gameObject.transform.Translate(diffVector*Time.deltaTime);
     }
 
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 /*
 Attach to an empty in the scene, please.
 Applies game settings on scene load.  
-
+I think what's in here is supposed to be static
 
 */
 
@@ -16,10 +16,11 @@ public enum controlSchemeType{
     keyboardAndMouse
 }
 
-public class GameSettings : MonoBehaviour
-{
+
+
+public class GameSettings : MonoBehaviour{
     public controlSchemeType currentScheme = 0;
-    public int maxFramerate = 60;
+    public  int maxFramerate = 60;
 
     //Apply Game settings
     void Start()

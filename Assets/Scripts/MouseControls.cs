@@ -3,37 +3,43 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
-The mouse cursor needs to be captive to the game window
+Converts mouse position on the game screen to a vector which is used to pull the chonk in a direction.
+Also checks for left click and right click.
+The maximum amount of force will be applied if the mouse cursor is 60% away from the center of the game screen.
+This is so you still have screen space to click and drag a little.  
 
-
-
+todo: add mouse button release functions
 */
 
 public class MouseControls : Controls
 {
-
     public override void initializeControls()
     {
         //locks the mouse cursor to the game screen
         Cursor.lockState = CursorLockMode.Confined;
     }
 
+    Vector3 viewportCenter = new Vector3(0.5f, 0.5f, 0f);
+    float maxPull = 0.3f;
+    float pullSpeed = 7f;
     public override Vector2 getPullDirection(){
         //get mouse cursor position in game space and convert it to something usable
-        pullDirection.x = Input.mousePosition.x;
-        pullDirection.y = Input.mousePosition.y;
-        return Camera.main.ScreenToWorldPoint(pullDirection);
+        pullDirection = (Camera.main.ScreenToViewportPoint(Input.mousePosition) - viewportCenter);
+        if(pullDirection.magnitude >= maxPull){
+            pullDirection = pullDirection.normalized*maxPull;
+        }
+        return pullSpeed*pullDirection;
     }
 
     public override bool orbify()
     {
-        //returns Left click
+        //returns true on Left click
         return Input.GetMouseButton(0);
     }
 
     public override bool liquefy()
     {
-        //returns Right click
+        //returns true on Right click
         return Input.GetMouseButton(1);
     }
 

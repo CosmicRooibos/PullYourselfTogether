@@ -9,9 +9,20 @@ public class Hazard : MonoBehaviour
     public bool isDamaging;
     public float timer = 0f;
 
+    public List<GameObject> bodyPartsColliding;
+
+    void Awake()
+    {
+        playerHealth = GameController.MyInstance.monsterCore.GetComponent<MonsterHealth>();
+    }
+
     void Update()
     {
-        if (isDamaging)
+        if (playerHealth == null)
+        {
+            playerHealth = GameController.MyInstance.monsterCore.GetComponent<MonsterHealth>();
+        }
+        /*if (isDamaging)
         {
             timer += Time.deltaTime;
             if (timer >= 1f)
@@ -19,6 +30,25 @@ public class Hazard : MonoBehaviour
                 timer -= 1f;
                 playerHealth.Hurt(damage);
             }
+        }*/
+        if(bodyPartsColliding.Count > 0)
+        {
+            if (!isDamaging)
+            {
+                isDamaging = true;
+                timer = 1f;
+            }
+            timer += Time.deltaTime;
+            if (timer >= 1f)
+            {
+                timer -= 1f;
+                playerHealth.Hurt(damage);
+            }
+        }
+        if(bodyPartsColliding.Count==0)
+        {
+            isDamaging = false;
+            timer = 0f;
         }
     }
 
@@ -28,9 +58,7 @@ public class Hazard : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<MonsterBodyPart>() != null && !isDamaging)
         {
-            playerHealth = GameController.MyInstance.monsterCore.GetComponent<MonsterHealth>();
-            isDamaging = true;
-            timer = 1f;
+            bodyPartsColliding.Add(collision.gameObject);
         }
     }
 
@@ -38,9 +66,7 @@ public class Hazard : MonoBehaviour
     {
         if(collision.gameObject.GetComponent<MonsterBodyPart>() != null)
         {
-            playerHealth = null;
-            isDamaging = false;
-            timer = 1f;
+            bodyPartsColliding.Remove(collision.gameObject);
         }
     }
 
@@ -50,9 +76,7 @@ public class Hazard : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<MonsterBodyPart>() != null && !isDamaging)
         {
-            playerHealth = GameController.MyInstance.monsterCore.GetComponent<MonsterHealth>();
-            isDamaging = true;
-            timer = 1f;
+            bodyPartsColliding.Add(collision.gameObject);
         }
     }
 
@@ -60,9 +84,7 @@ public class Hazard : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<MonsterBodyPart>() != null)
         {
-            playerHealth = null;
-            isDamaging = false;
-            timer = 1f;
+            bodyPartsColliding.Remove(collision.gameObject);
         }
     }
 }

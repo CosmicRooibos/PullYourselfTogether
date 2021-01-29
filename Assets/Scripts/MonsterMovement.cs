@@ -16,7 +16,7 @@ public class MonsterMovement : MonoBehaviour
     Vector2 pullDirection = Vector2.zero;
     Vector2 chonkPosition = Vector2.zero;
     Rigidbody2D chonkRigidBody;
-    int forceMultipler = 50;
+    public int forceMultiplier = 10000;
 
     //todo: add an accessible speed multiplier for powerups
 
@@ -54,7 +54,7 @@ public class MonsterMovement : MonoBehaviour
         //movementDifference.y = movementDifference.y * 0; //temporary because i didnt want chonk floating
         
             //Apply forces
-            chonkRigidBody.AddForce(forceMultipler*pullDirection);
+            chonkRigidBody.AddForce(forceMultiplier*pullDirection);
         
     }
   

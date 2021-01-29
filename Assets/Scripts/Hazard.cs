@@ -26,9 +26,9 @@ public class Hazard : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<MonsterHealth>() != null)
+        if (collision.gameObject.GetComponent<MonsterBodyPart>() != null && !isDamaging)
         {
-            playerHealth = collision.gameObject.GetComponent<MonsterHealth>();
+            playerHealth = GameController.MyInstance.monsterCore.GetComponent<MonsterHealth>();
             isDamaging = true;
             timer = 1f;
         }
@@ -36,7 +36,7 @@ public class Hazard : MonoBehaviour
 
     public void OnCollisionExit2D(Collision2D collision)
     {
-        if(collision.gameObject.GetComponent<MonsterHealth>() != null)
+        if(collision.gameObject.GetComponent<MonsterBodyPart>() != null)
         {
             playerHealth = null;
             isDamaging = false;
@@ -48,9 +48,9 @@ public class Hazard : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.GetComponent<MonsterHealth>() != null)
+        if (collision.gameObject.GetComponent<MonsterBodyPart>() != null && !isDamaging)
         {
-            playerHealth = collision.gameObject.GetComponent<MonsterHealth>();
+            playerHealth = GameController.MyInstance.monsterCore.GetComponent<MonsterHealth>();
             isDamaging = true;
             timer = 1f;
         }
@@ -58,7 +58,7 @@ public class Hazard : MonoBehaviour
 
     public void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.GetComponent<MonsterHealth>() != null)
+        if (collision.gameObject.GetComponent<MonsterBodyPart>() != null)
         {
             playerHealth = null;
             isDamaging = false;

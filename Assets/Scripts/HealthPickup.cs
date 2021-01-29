@@ -7,9 +7,9 @@ public class HealthPickup : MonoBehaviour
     public float heal;
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.GetComponent<MonsterHealth>() != null)
+        if (collision.gameObject.GetComponent<MonsterBodyPart>() != null)
         {
-            collision.gameObject.GetComponent<MonsterHealth>().Heal(heal);
+            GameController.MyInstance.monsterCore.GetComponent<MonsterHealth>().Heal(heal);
             Destroy(this.gameObject);
         }
     }

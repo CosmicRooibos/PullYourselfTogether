@@ -20,9 +20,9 @@ public class UpgradePickup : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision) //
     {
-        if (collision.gameObject.GetComponent<MonsterProperties>() != null)
+        if (collision.gameObject.GetComponent<MonsterBodyPart>() != null)
         {
-            collision.gameObject.GetComponent<MonsterProperties>().Upgrade(upgradeType, upgradeValue);
+            GameController.MyInstance.monsterCore.GetComponent<MonsterProperties>().Upgrade(upgradeType, upgradeValue);
             Destroy(this.gameObject);
         }
     }

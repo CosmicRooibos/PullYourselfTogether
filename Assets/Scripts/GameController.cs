@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
 
     public static GameController MyInstance { get { return instance; } }
 
+    public GameObject monsterCore;
 
     private void Awake()
     {

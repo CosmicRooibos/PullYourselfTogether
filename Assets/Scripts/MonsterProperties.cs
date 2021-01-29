@@ -10,6 +10,13 @@ public class MonsterProperties : MonoBehaviour
     public bool climbActive;
     public bool squeezeActive;
 
+    public List<float> healthPickups;
+    public List<float> speedPickups;
+
+    public string consumeKey = "c";
+
+    public MonsterHealth healthManager;
+
     void Start()
     {
         jumpActive = false;
@@ -17,6 +24,19 @@ public class MonsterProperties : MonoBehaviour
         sinkActive = false;
         climbActive = false;
         squeezeActive = false;
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(consumeKey)) //Consume Key is, by default, c. This will fire once, each time you press it.
+        {
+            if(healthPickups.Count > 0)
+            {
+                healthManager.maxHealth -= healthPickups[healthPickups.Count - 1];
+                healthManager.Heal(healthPickups[healthPickups.Count - 1]);
+                healthPickups.RemoveAt(healthPickups.Count - 1);
+            }
+        }
     }
 
     //Any user feedback will go into these functions
@@ -76,11 +96,14 @@ public class MonsterProperties : MonoBehaviour
                 Debug.Log("Jump Power get!!!");
                 break;
             case eUpgradeType.health:
-                this.gameObject.GetComponent<MonsterHealth>().maxHealth += val;
+                healthManager.maxHealth += val;
+                healthManager.Heal(0);
+                healthPickups.Add(val);
                 Debug.Log("Max health increased by " + val);
                 break;
             case eUpgradeType.speed:
                 //Integrate with the speed variable
+                speedPickups.Add(val);
                 break;
             default:
                 break;

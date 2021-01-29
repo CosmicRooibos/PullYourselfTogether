@@ -49,4 +49,41 @@ public class MonsterProperties : MonoBehaviour
         sinkActive = true;
         Debug.Log("Sink Power get!!!");
     }
+
+    //Adding generic method:
+    public void Upgrade(eUpgradeType type, float val)
+    {
+        switch (type)
+        {
+            case eUpgradeType.jump:
+                jumpActive = true;
+                Debug.Log("Jump Power get!!!");
+                break;
+            case eUpgradeType.sink:
+                jumpActive = true;
+                Debug.Log("Jump Power get!!!");
+                break;
+            case eUpgradeType.swim:
+                jumpActive = true;
+                Debug.Log("Jump Power get!!!");
+                break;
+            case eUpgradeType.squeeze:
+                jumpActive = true;
+                Debug.Log("Jump Power get!!!");
+                break;
+            case eUpgradeType.climb:
+                jumpActive = true;
+                Debug.Log("Jump Power get!!!");
+                break;
+            case eUpgradeType.health:
+                this.gameObject.GetComponent<MonsterHealth>().maxHealth += val;
+                Debug.Log("Max health increased by " + val);
+                break;
+            case eUpgradeType.speed:
+                //Integrate with the speed variable
+                break;
+            default:
+                break;
+        }
+    }
 }

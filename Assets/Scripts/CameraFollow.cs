@@ -27,11 +27,11 @@ public class CameraFollow : MonoBehaviour
 
     Vector3 pullDirection;
     Vector3 destination;
-    float pullSpeed = 7f;
+    public float cameraOffset = 2.5f;
     
     void MoveCamera(){
         pullDirection = (Camera.main.ScreenToViewportPoint(Input.mousePosition) - Camera.main.WorldToViewportPoint(chonk.transform.position));
-        destination = chonk.transform.position + pullSpeed*pullDirection;
+        destination = chonk.transform.position + cameraOffset*pullDirection;
         destination.z = Camera.main.transform.position.z;
         transform.position = destination;
     }

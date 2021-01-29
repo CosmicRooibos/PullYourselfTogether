@@ -26,7 +26,6 @@ public class MouseControls : Controls
     public override Vector2 getPullDirection(Vector3 chonkPos){
         //get mouse cursor position in game space and convert it to something usable
         pullDirection = (Camera.main.ScreenToViewportPoint(Input.mousePosition) - Camera.main.WorldToViewportPoint(chonkPos));
-        Debug.Log(pullDirection);
         Debug.DrawLine(chonkPos, chonkPos + pullSpeed*(Vector3)pullDirection);
         if(pullDirection.magnitude >= maxPull){
             pullDirection = pullDirection.normalized*maxPull;

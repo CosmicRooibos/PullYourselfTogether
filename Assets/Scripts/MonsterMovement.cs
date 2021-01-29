@@ -18,24 +18,25 @@ public class MonsterMovement : MonoBehaviour
     Rigidbody2D chonkRigidBody;
     int forceMultipler = 50;
 
+    //todo: add an accessible speed multiplier for powerups
+
     void Start()
     {
         chonkControls.initializeControls();
         chonkRigidBody = gameObject.GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         //move chonk towards pullDirection
-        chonkPosition = gameObject.transform.position;
-        pullDirection = chonkControls.getPullDirection();
+        pullDirection = chonkControls.getPullDirection(gameObject.transform.position);
         FaceTowards(); //not sure how necessary this will be
         
         //todo: make these controls more robust
-        if(chonkControls.orbify()){
+        if(chonkControls.button0()){
             Orbify();
         }
-        else if(chonkControls.liquefy()){
+        else if(chonkControls.button1()){
             Liquefy();
         }
         else {

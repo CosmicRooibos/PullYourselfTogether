@@ -22,25 +22,36 @@ public class MouseControls : Controls
     Vector3 viewportCenter = new Vector3(0.5f, 0.5f, 0f);
     float maxPull = 0.3f;
     float pullSpeed = 7f;
-    public override Vector2 getPullDirection(){
+    public override Vector2 getPullDirection(Vector3 chonkPos){
         //get mouse cursor position in game space and convert it to something usable
-        pullDirection = (Camera.main.ScreenToViewportPoint(Input.mousePosition) - viewportCenter);
+        pullDirection = (Camera.main.ScreenToViewportPoint(Input.mousePosition) - 
+                         Camera.main.WorldToViewportPoint(chonkPos));
         if(pullDirection.magnitude >= maxPull){
             pullDirection = pullDirection.normalized*maxPull;
         }
         return pullSpeed*pullDirection;
     }
 
-    public override bool orbify()
+    public override bool button0()
     {
         //returns true on Left click
         return Input.GetMouseButton(0);
     }
 
-    public override bool liquefy()
+    public override bool button1()
     {
         //returns true on Right click
         return Input.GetMouseButton(1);
     }
+
+    public override bool button0release()
+    {
+        return Input.GetMouseButtonUp(0);
+    }    
+    public override bool button1release()
+    {
+        return Input.GetMouseButtonUp(1);
+    }    
+
 
 }

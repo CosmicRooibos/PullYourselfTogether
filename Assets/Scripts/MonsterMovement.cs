@@ -31,7 +31,7 @@ public class MonsterMovement : MonoBehaviour
         //move chonk towards pullDirection
         pullDirection = chonkControls.getPullDirection(gameObject.transform.position);
         FaceTowards(); //not sure how necessary this will be
-        
+        //Debug.DrawLine(transform.position, pullDirection);
         //todo: make these controls more robust
         if(chonkControls.button0()){
             Orbify();

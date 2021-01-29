@@ -8,14 +8,21 @@ public class Controls
     public virtual void initializeControls(){
         return;
     }
-    public virtual Vector2 getPullDirection(){
+    public virtual Vector2 getPullDirection(Vector3 chonkPos){
         return Vector2.zero;
     }
-    public virtual bool orbify(){
+    public virtual bool button0(){
         return false;
     }
-    public virtual bool liquefy(){
+    public virtual bool button1(){
         return false;
     }
 
+    public virtual bool button0release(){
+        return false;
+    }
+
+    public virtual bool button1release(){
+        return false;
+    }
 }

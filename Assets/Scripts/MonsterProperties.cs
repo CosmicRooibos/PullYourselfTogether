@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
+
 //this is for the working copy
 public class MonsterProperties : MonoBehaviour
 {

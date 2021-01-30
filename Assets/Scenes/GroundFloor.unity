@@ -121,6 +121,58 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &675389 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984741876823382, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &675397
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675389}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.7350307
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &42586377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742684829902, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &42586385
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42586377}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.2125559
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &62762063
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,12 +271,116 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 2092950379}
   parallaxEffect: 0.5
+--- !u!1 &66268051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742924040575, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &66268056
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66268051}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.3064592
+  m_DampingRatio: 0.7
+  m_Frequency: 15
+--- !u!1 &75708033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984741892745531, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &75708038
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75708033}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.26150897
+  m_DampingRatio: 0.7
+  m_Frequency: 15
+--- !u!1 &94673131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984741871634931, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &94673139
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94673131}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.71170974
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!4 &113356059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3588984742743652422, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
     type: 3}
   m_PrefabInstance: {fileID: 787513744}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &128827992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742308839020, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &128828000
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128827992}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.7528988
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &138703794
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +572,474 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &205529580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742277533147, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &205529585
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205529580}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.65692073
+  m_DampingRatio: 0.7
+  m_Frequency: 15
+--- !u!1 &228793289 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743213987955, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &228793297
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228793289}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.3069221
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &241804635 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743175146911, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &241804643
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241804635}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.0277855
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &245340867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984741824172703, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &245340875
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245340867}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.1607791
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &252288192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743519330272, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &252288200
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252288192}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.3225418
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &269630451 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743171348684, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &269630456
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269630451}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.792403
+  m_DampingRatio: 0.7
+  m_Frequency: 15
+--- !u!1 &287232262 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743262593829, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &287232270
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287232262}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.6942782
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &294443123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742986453690, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &294443131
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294443123}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.7737477
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &302205413 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742549629428, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &302205421
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302205413}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.7226285
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &306739621 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743367671170, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &306739629
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306739621}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.6397202
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &361749924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742641181204, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &361749932
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361749924}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.1836866
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &372051812 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743770791218, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &372051820
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372051812}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.7800035
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &385249021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984741924852875, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &385249029
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385249021}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.63922334
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &395766028 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984741884769304, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &395766033
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395766028}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.8960264
+  m_DampingRatio: 0.7
+  m_Frequency: 15
+--- !u!1 &422705508 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742555002881, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &422705516
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422705508}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.465489
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &434544024 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742486415031, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &434544032
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434544024}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.0507542
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &436466059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742867799978, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &436466067
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436466059}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.9449818
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &437800337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743147485378, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &437800345
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437800337}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.0821542
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &449327952
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,6 +1138,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 2092950379}
   parallaxEffect: 0
+--- !u!1 &449828995 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743145341932, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &449829000
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449828995}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.7716883
+  m_DampingRatio: 0.7
+  m_Frequency: 15
+--- !u!1 &464719307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743300666049, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &464719312
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464719307}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.7351895
+  m_DampingRatio: 0.7
+  m_Frequency: 15
 --- !u!1 &546331990
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,6 +1271,136 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &575458401 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743752886544, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &575458409
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575458401}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.97246426
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &625324821 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742463299836, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &625324829
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625324821}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.1440207
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &633284565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742675815828, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &633284573
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633284565}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.81351686
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &671248818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984741950117007, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &671248826
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671248818}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.3224548
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &685308354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743085262061, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &685308362
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685308354}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.5855735
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &735939517
 GameObject:
   m_ObjectHideFlags: 0
@@ -4201,6 +5007,110 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1 &764261639 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742680193721, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &764261647
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764261639}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.50815296
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &764738154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743483985100, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &764738162
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764738154}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.2794311
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &767257773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742457669228, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &767257781
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767257773}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.0056623
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &769475975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984741939866896, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &769475983
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769475975}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.45878184
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1001 &787513744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4248,6 +5158,66 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984741824172701, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08970287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741824172701, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741824172701, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741824172702, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741824172702, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741824172703, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741871634929, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08991378
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741871634929, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741871634929, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741871634930, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741871634930, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741871634931, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984741871634935, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4258,26 +5228,206 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984741876823380, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07575813
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741876823380, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741876823380, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741876823381, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741876823381, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741876823382, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741876835112, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984741876835116, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984741876835118, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.073049404
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741876835118, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741876835118, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741876835119, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741876835119, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741884769304, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741884769310, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741892745529, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741892745531, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741904912272, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741904912279, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741924852873, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07396798
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741924852873, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741924852873, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741924852874, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741924852874, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741924852875, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984741924852879, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984741939866896, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984741939866900, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984741939866902, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.0943589
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741939866902, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741939866902, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741939866903, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741939866903, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984741950116995, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984741950117005, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07575182
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741950117005, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741950117005, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741950117006, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741950117006, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984741950117007, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742063564417, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_RootOrder
@@ -4340,8 +5490,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3588984742063564418, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742063564418, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742123423744, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.09326077
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742123423744, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742123423744, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742123423745, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742123423745, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742123423746, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3588984742123423750, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
@@ -4353,11 +5538,101 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742133072317, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08884433
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742133072317, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742133072317, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742133072318, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742133072318, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742133072319, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742136276944, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742136276946, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08979951
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742136276946, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742136276946, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742136276947, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742136276947, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742136276956, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742141241873, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.073728345
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742141241873, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742141241873, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742141241874, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742141241874, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742141241875, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742141241879, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4368,21 +5643,181 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742144886677, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08967509
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742144886677, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742144886677, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742144886678, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742144886678, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742144886679, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742271725456, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742271725460, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742271725462, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08720682
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742271725462, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742271725462, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742271725463, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742271725463, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742277533146, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742277533147, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742308839009, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742308839009, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742308839010, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.0864561
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742308839010, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742308839010, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742308839015, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742308839020, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742390911176, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742390911178, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07488527
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742390911178, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742390911178, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742390911179, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742390911179, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742390911188, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742395411089, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07692037
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742395411089, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742395411089, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742395411090, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742395411090, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742395411091, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742395411095, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4393,66 +5828,491 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742457669218, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.082340755
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742457669218, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742457669218, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742457669219, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742457669219, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742457669228, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742463299824, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742463299826, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.0900094
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742463299826, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742463299826, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742463299827, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742463299827, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742463299836, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742486415019, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742486415029, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08731603
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742486415029, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742486415029, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742486415030, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742486415030, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742486415031, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742489283657, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742489283659, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.076927565
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742489283659, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742489283659, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742489283668, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742489283668, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742489283669, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742549629416, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742549629418, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08829877
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742549629418, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742549629418, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742549629419, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742549629419, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742549629428, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742552005241, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742552005243, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.09213481
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742552005243, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742552005243, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742552005252, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742552005252, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742552005253, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742555002880, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742555002880, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742555002881, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742555002885, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742555002887, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07552439
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742555002887, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742555002887, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742557942584, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742557942588, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742557942590, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742557942590, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742557942591, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742557942591, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742575006291, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742575006301, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07394936
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742575006301, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742575006301, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742575006302, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742575006302, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742575006303, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742617588352, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742617588359, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742641181192, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742641181194, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.062273856
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742641181194, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742641181194, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742641181195, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742641181195, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742641181204, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742675815816, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742675815818, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08774329
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742675815818, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742675815818, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742675815819, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742675815819, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742675815828, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742680193720, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742680193720, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742680193721, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742680193725, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742680193727, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07889859
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742680193727, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742680193727, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742684829890, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742684829900, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08833231
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742684829900, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742684829900, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742684829901, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742684829901, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742684829902, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742702472337, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.089248836
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742702472337, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742702472337, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742702472338, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742702472338, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742702472339, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742702472343, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4463,71 +6323,551 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742729772253, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08791339
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742729772253, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742729772253, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742729772254, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742729772254, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742729772255, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742743652423, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742811927400, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08997739
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742811927400, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742811927400, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742811927401, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742811927401, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742811927402, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742811927406, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742827291921, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.06305711
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742827291921, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742827291921, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742827291922, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742827291922, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742827291923, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742827291927, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742867799976, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08664229
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742867799976, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742867799976, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742867799977, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742867799977, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742867799978, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742867799982, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742901516200, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742901516200, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742901516201, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742901516205, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742901516207, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08699846
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742901516207, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742901516207, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742924040574, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742924040575, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742986453688, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.06433136
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742986453688, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742986453688, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742986453689, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742986453689, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742986453690, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742986453694, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742991061200, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742991061200, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742991061201, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984742991061205, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984742991061207, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08967429
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742991061207, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984742991061207, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743010622768, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743010622768, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743010622769, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743010622773, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743010622775, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07796219
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743010622775, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743010622775, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743058688611, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743058688621, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.09006159
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743058688621, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743058688621, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743058688622, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743058688622, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743058688623, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743085262049, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743085262051, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.06022546
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743085262051, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743085262051, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743085262060, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743085262060, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743085262061, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743101469104, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743101469106, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.09154291
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743101469106, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743101469106, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743101469107, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743101469107, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743101469116, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743118262481, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08236574
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743118262481, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743118262481, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743118262482, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743118262482, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743118262483, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743118262487, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743145341923, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743145341932, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743147485376, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08984321
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743147485376, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743147485376, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743147485377, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743147485377, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743147485378, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743147485382, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743171348675, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743171348684, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743175146899, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743175146909, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743175146909, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743175146910, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743175146910, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743175146911, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743213987953, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08039272
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743213987953, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743213987953, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743213987954, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743213987954, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743213987955, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743213987959, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4538,11 +6878,106 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743260588499, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07517222
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743260588499, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743260588499, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743260588508, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743260588508, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743260588509, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743262593817, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743262593819, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743262593819, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743262593828, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743262593828, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743262593829, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743300666048, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743300666049, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743306164407, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743347592464, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743347592464, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743347592465, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743347592465, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743347592466, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743347592470, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4553,6 +6988,66 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743348168290, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08841648
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743348168290, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743348168290, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743348168291, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743348168291, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743348168300, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743367671168, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.0751281
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743367671168, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743367671168, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743367671169, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743367671169, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743367671170, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743367671174, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4563,31 +7058,256 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743403437546, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08032263
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743403437546, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743403437546, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743403437547, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743403437547, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743403437556, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743406200409, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: guts
+      value: 
+      objectReference: {fileID: 113356059}
+    - target: {fileID: 3588984743406200409, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: monProp
+      value: 
+      objectReference: {fileID: 1156586957}
+    - target: {fileID: 3588984743406200409, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: mask.m_Bits
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743406200409, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: jumpVelocity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743406200409, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: fallMultiplier
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743406200409, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: groundClearance
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743406200409, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: lowJumpMultiplier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743406200410, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743406200411, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743406200413, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: healthBarFG
       value: 
       objectReference: {fileID: 173791483}
+    - target: {fileID: 3588984743419850473, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08966231
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743419850473, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743419850473, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743419850474, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743419850474, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743419850475, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743419850479, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743463928192, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743463928192, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743463928193, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743463928197, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743463928199, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07709026
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743463928199, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743463928199, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743483985088, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743483985090, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.0882728
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743483985090, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743483985090, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743483985091, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743483985091, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743483985100, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743519330272, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743519330276, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743519330278, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.09001368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743519330278, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743519330278, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743519330279, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743519330279, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743545274441, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07779815
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743545274441, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743545274441, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743545274442, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743545274442, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743545274443, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743545274447, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4598,26 +7318,201 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743555792429, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07864474
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743555792429, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743555792429, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743555792430, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743555792430, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743555792431, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743668151424, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08917139
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743668151424, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743668151424, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743668151425, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743668151425, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743668151426, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743668151430, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743752886544, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743752886548, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743752886550, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743752886550, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743752886551, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743752886551, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743758637794, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743758637804, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08869951
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743758637804, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743758637804, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743758637805, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743758637805, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743758637806, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743770791216, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.05821809
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743770791216, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743770791216, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743770791217, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743770791217, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743770791218, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743770791222, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743840554433, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.07587095
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743840554433, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743840554433, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743840554434, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743840554434, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743840554435, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743840554439, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4628,13 +7523,119 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743858894762, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.061467044
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743858894762, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743858894762, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743858894763, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743858894763, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743858894772, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743894745064, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743894745064, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743894745065, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3588984743894745069, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3588984743894745071, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Distance
+      value: 0.08697506
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743894745071, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743894745071, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743922411973, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743922411974, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743942649417, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588984743942649418, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c748ff8d1b437a54f8f14ce9ea62b67c, type: 3}
+--- !u!1 &826738707 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743101469116, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &826738715
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826738707}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.66816837
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &855676383
 GameObject:
   m_ObjectHideFlags: 0
@@ -4716,6 +7717,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &897350571 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743840554435, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &897350579
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897350571}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.2541722
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &958726499 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742395411091, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &958726507
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958726499}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.88457686
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &959167877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743118262483, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &959167885
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959167877}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.6995406
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &965924830
 GameObject:
   m_ObjectHideFlags: 0
@@ -4797,6 +7876,58 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &977963609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742901516201, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &977963617
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977963609}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.57259476
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1000625578 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742811927402, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1000625586
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000625578}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.61769575
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &1009964442
 GameObject:
   m_ObjectHideFlags: 0
@@ -4878,6 +8009,58 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1048041707 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742617588352, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1048041712
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048041707}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.58476067
+  m_DampingRatio: 0.7
+  m_Frequency: 15
+--- !u!1 &1052713285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743403437556, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1052713293
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052713285}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.52225053
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &1060635857
 GameObject:
   m_ObjectHideFlags: 0
@@ -4913,6 +8096,32 @@ Transform:
   m_Father: {fileID: 2092950382}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1065641619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742136276956, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1065641627
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065641619}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.2283872
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &1086902790
 GameObject:
   m_ObjectHideFlags: 0
@@ -4994,12 +8203,82 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1093698052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742489283669, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1093698060
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093698052}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.54049855
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &1156586954 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3588984743406200411, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
     type: 3}
   m_PrefabInstance: {fileID: 787513744}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1156586957 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 431940444949298303, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156586954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50af661874a9ab348858b5d86047c49a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &1156586961 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3588984743406200410, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1159700926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742827291923, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1159700934
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159700926}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.58926475
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &1162800755
 GameObject:
   m_ObjectHideFlags: 0
@@ -5044,6 +8323,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1167418463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742702472339, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1167418471
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167418463}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.5634025
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1001 &1182108526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5161,13 +8466,59 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7189870020942296466, guid: fd0b7cb8292930844ba0e6253cbc78d8,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2092950381}
+    - target: {fileID: 7189870020942296466, guid: fd0b7cb8292930844ba0e6253cbc78d8,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7189870020942296467, guid: fd0b7cb8292930844ba0e6253cbc78d8,
         type: 3}
       propertyPath: m_ScaleFactor
-      value: 0.11
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7189870021033012416, guid: fd0b7cb8292930844ba0e6253cbc78d8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -195.00977
+      objectReference: {fileID: 0}
+    - target: {fileID: 7189870021424206920, guid: fd0b7cb8292930844ba0e6253cbc78d8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -202.00977
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd0b7cb8292930844ba0e6253cbc78d8, type: 3}
+--- !u!1 &1204434349 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984741876835112, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1204434357
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204434349}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.47216788
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &1253162174
 GameObject:
   m_ObjectHideFlags: 0
@@ -5249,6 +8600,214 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1271225636 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743922411974, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1271225641
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271225636}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.6396445
+  m_DampingRatio: 0.7
+  m_Frequency: 15
+--- !u!1 &1272502520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742123423746, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1272502528
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272502520}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.48073667
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1306155757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743463928193, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1306155765
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306155757}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.55267656
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1314840569 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743942649418, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1314840574
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314840569}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.41172445
+  m_DampingRatio: 0.7
+  m_Frequency: 15
+--- !u!1 &1355949653 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742552005253, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1355949661
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355949653}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.3369339
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1368217692 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984741904912272, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1368217697
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368217692}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.4018611
+  m_DampingRatio: 0.7
+  m_Frequency: 15
+--- !u!1 &1410677366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743348168300, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1410677374
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410677366}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.53886414
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1421123456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743419850475, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1421123464
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421123456}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.85363847
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &1423295732
 GameObject:
   m_ObjectHideFlags: 0
@@ -5330,6 +8889,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1501612310 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743668151426, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1501612318
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501612310}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.3165221
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1515911371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742144886679, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1515911379
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515911371}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.48933998
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1580351906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742133072319, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1580351914
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580351906}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.5165988
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1593604111 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743758637806, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1593604119
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593604111}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.2822838
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &1600589410
 GameObject:
   m_ObjectHideFlags: 0
@@ -5411,6 +9074,58 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1657929220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742271725456, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1657929228
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657929220}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.3205773
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1660902488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742729772255, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1660902496
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660902488}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.4981946
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &1666127138
 GameObject:
   m_ObjectHideFlags: 0
@@ -5590,6 +9305,214 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1684236006 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742575006303, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1684236014
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684236006}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.3275362
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1688962479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742557942584, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1688962487
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688962479}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.1193743
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1701497898 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743347592466, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1701497906
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701497898}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.73657435
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1706054284 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743894745065, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1706054292
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706054284}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.6669092
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1767191255 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743260588509, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1767191263
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767191255}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.9089522
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1810669602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743858894772, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1810669610
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810669602}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.1878513
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1815901167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742141241875, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1815901175
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815901167}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.48341092
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &1836614437 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743555792431, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1836614445
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836614437}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.3323579
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &1889640282
 GameObject:
   m_ObjectHideFlags: 0
@@ -5688,6 +9611,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 2092950379}
   parallaxEffect: 0.7
+--- !u!1 &1907770973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742390911188, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &1907770981
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907770973}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.1030635
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &1961940979
 GameObject:
   m_ObjectHideFlags: 0
@@ -5800,6 +9749,32 @@ Transform:
   m_Father: {fileID: 2092950382}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2016798197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743010622769, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &2016798205
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016798197}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.2506485
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &2031736085
 GameObject:
   m_ObjectHideFlags: 0
@@ -5881,6 +9856,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2042325837 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743545274443, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &2042325845
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042325837}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.3065208
+  m_DampingRatio: 0.7
+  m_Frequency: 1
 --- !u!1 &2092950379
 GameObject:
   m_ObjectHideFlags: 0
@@ -5981,3 +9982,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chonk: {fileID: 1156586954}
   cameraOffset: 1.5
+--- !u!1 &2101960077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984742991061201, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &2101960085
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101960077}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.75623494
+  m_DampingRatio: 0.7
+  m_Frequency: 1
+--- !u!1 &2139251770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588984743058688623, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 787513744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!231 &2139251778
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139251770}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1156586961}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.6050914
+  m_DampingRatio: 0.7
+  m_Frequency: 1

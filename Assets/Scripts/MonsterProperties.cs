@@ -14,11 +14,18 @@ public class MonsterProperties : MonoBehaviour
     public List<float> speedPickups;
 
     public string consumeKey = "c";
+    public string squeezeKey = "mouse 1";
 
     public MonsterHealth healthManager;
 
+    public Transform guts;
+    public Transform[] gutsChildren;
+    public Vector3 gutsSizeMax; //The original size of each guts ball. 
+    public Vector3 gutsSizeMin; //How much the guts will shrink.
+
     void Start()
     {
+        gutsChildren = guts.GetComponentsInChildren<Transform>();
         jumpActive = false;
         swimActive = false;
         sinkActive = false;
@@ -36,6 +43,18 @@ public class MonsterProperties : MonoBehaviour
                 healthManager.Heal(healthPickups[healthPickups.Count - 1]);
                 healthPickups.RemoveAt(healthPickups.Count - 1);
             }
+        }
+
+        //flatten while button is held down
+        if (Input.GetKey(squeezeKey))
+        {
+            if (squeezeActive)
+                Squeeze();
+        }
+
+        if (Input.GetKeyUp(squeezeKey))
+        {
+            UnSqueeze();
         }
     }
 
@@ -107,6 +126,26 @@ public class MonsterProperties : MonoBehaviour
                 break;
             default:
                 break;
+        }
+    }
+
+    //Flatten guts to a pancake
+    public void Squeeze()
+    {
+        foreach (Transform child in gutsChildren)
+        {
+            if (child != guts)
+                child.localScale = gutsSizeMin;
+        }
+    }
+
+    //Return to normal size
+    public void UnSqueeze()
+    {
+        foreach (Transform child in gutsChildren)
+        {
+            if (child != guts)
+                child.localScale = gutsSizeMax;
         }
     }
 }

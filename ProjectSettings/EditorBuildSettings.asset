@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main Menu.unity
     guid: 0e5cce05a86232a4d85bdbafdc27b60c
   - enabled: 1
     path: Assets/Scenes/GroundFloor.unity
     guid: 20d345e0ce9952b4a85ef7a23f1abccc
+  - enabled: 1
+    path: Assets/Scenes/Downtown.unity
+    guid: 279f8ab7118f0124f9d8af8a931251ee
   m_configObjects: {}

@@ -11,11 +11,12 @@ public class Hazard : MonoBehaviour
 
     public List<GameObject> bodyPartsColliding;
 
+    /*
     void Awake()
     {
         playerHealth = GameController.MyInstance.monsterCore.GetComponent<MonsterHealth>();
     }
-
+    */
     void Update()
     {
         if (playerHealth == null)

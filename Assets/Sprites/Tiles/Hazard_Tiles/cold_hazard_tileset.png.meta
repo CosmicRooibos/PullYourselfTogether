@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: 9b3953420585fc34b9c15ab57db24982
+guid: a0835fd0efa177f4699bc978660d35c4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2619141787369524611
-    second: Suburbs_wall_Tileset_1_0
+      213: 8013797493014814949
+    second: cold_hazard_tileset_0
   - first:
-      213: -4278651272432839559
-    second: Suburbs_wall_Tileset_1_1
+      213: -2756475321368021784
+    second: cold_hazard_tileset_1
   - first:
-      213: 7053925800186565444
-    second: Suburbs_wall_Tileset_1_2
+      213: 4989848654560080266
+    second: cold_hazard_tileset_2
   - first:
-      213: 2339970120346618390
-    second: Suburbs_wall_Tileset_1_3
+      213: 5279325324450756683
+    second: cold_hazard_tileset_3
+  - first:
+      213: -3827177463691507348
+    second: cold_hazard_tileset_4
+  - first:
+      213: -1687313329716269257
+    second: cold_hazard_tileset_5
+  - first:
+      213: -4327683359202827825
+    second: cold_hazard_tileset_6
+  - first:
+      213: -1535523660320547755
+    second: cold_hazard_tileset_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,28 +123,28 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Suburbs_wall_Tileset_1_0
+      name: cold_hazard_tileset_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 162
+        y: 243
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d723573db60f6abd0800000000000000
-      internalID: -2619141787369524611
+      spriteID: 5e060196c5ab63f60800000000000000
+      internalID: 8013797493014814949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Suburbs_wall_Tileset_1_1
+      name: cold_hazard_tileset_1
       rect:
         serializedVersion: 2
         x: 256
@@ -140,20 +152,62 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9741ed4465d2f94c0800000000000000
-      internalID: -4278651272432839559
+      spriteID: 8e47ab5bc480fb9d0800000000000000
+      internalID: -2756475321368021784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Suburbs_wall_Tileset_1_2
+      name: cold_hazard_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81b30af9e08f3540800000000000000
+      internalID: 4989848654560080266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cold_hazard_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b487c99596ee34940800000000000000
+      internalID: 5279325324450756683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cold_hazard_tileset_4
       rect:
         serializedVersion: 2
         x: 0
@@ -161,20 +215,20 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4435518542494e160800000000000000
-      internalID: 7053925800186565444
+      spriteID: c698940cf5223eac0800000000000000
+      internalID: -3827177463691507348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Suburbs_wall_Tileset_1_3
+      name: cold_hazard_tileset_5
       rect:
         serializedVersion: 2
         x: 256
@@ -182,14 +236,56 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61ac9404d6e397020800000000000000
-      internalID: 2339970120346618390
+      spriteID: 73fea7567757598e0800000000000000
+      internalID: -1687313329716269257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cold_hazard_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1a852f9eaf0f3c0800000000000000
+      internalID: -4327683359202827825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cold_hazard_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cd262dd59b0bae0800000000000000
+      internalID: -1535523660320547755
       vertices: []
       indices: 
       edges: []

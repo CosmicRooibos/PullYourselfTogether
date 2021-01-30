@@ -11,7 +11,7 @@ Control scheme-agnostic way for the creature to move
 
 public class MonsterMovement : MonoBehaviour
 {
-
+    public MonsterProperties monProp;
     Controls chonkControls = new MouseControls();   //todo: check game settings to set chonkControls to the corresponding instance of the inherited class
     Vector2 pullDirection = Vector2.zero;
     Vector2 chonkPosition = Vector2.zero;
@@ -24,6 +24,16 @@ public class MonsterMovement : MonoBehaviour
     public float lowJumpMultiplier;
 
     bool jumpRequest;
+    bool grounded = true;
+
+    public LayerMask mask;
+    public float groundClearance;
+
+    float playerSize;
+    Vector2 groundBoxSize;
+
+    public Transform guts;
+    public Rigidbody2D[] gutsChildren;
 
     //todo: add an accessible speed multiplier for powerups
 
@@ -31,16 +41,20 @@ public class MonsterMovement : MonoBehaviour
     {
         chonkControls.initializeControls();
         chonkRigidBody = gameObject.GetComponent<Rigidbody2D>();
+        playerSize = GetComponent<CircleCollider2D>().radius;
+        groundBoxSize = new Vector2(playerSize * 2, groundClearance);
+        gutsChildren = guts.GetComponentsInChildren<Rigidbody2D>();
     }
 
-    /*void Update() //Yes, this code needs to be in Update, *not* FixedUpdate. Don't move it into FixedUpdate, or else it will intermittently fail to activate for what I can only describe as "no good reason." Trust me on this one. -Horizon
+    void Update() //Yes, this code needs to be in Update, *not* FixedUpdate. Don't move it into FixedUpdate, or else it will intermittently fail to activate for what I can only describe as "no good reason." Trust me on this one. -Horizon
     //Also, leaving this code commented out until someone else can review it and make sure it's good.
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetMouseButtonDown(0) && grounded && monProp.jumpActive)
         {
             jumpRequest = true;
+            grounded = false;
         }
-    }*/
+    }
 
     void FixedUpdate()
     {
@@ -62,26 +76,38 @@ public class MonsterMovement : MonoBehaviour
         //}
 
 
-        /*if (jumpRequest) //This code is for executing the jump stuff. When you press the jump button, then jumpRequest will be set to true in Update. Then, in this part of the code, jumpRequest will cause the rigidbody to shoot up into the air, and set jumpRequest to false. That, on its own, would be sufficient... but that's not good enough for me. Come down a few lines with me. -Horizon
+        if (jumpRequest) //This code is for executing the jump stuff. When you press the jump button, then jumpRequest will be set to true in Update. Then, in this part of the code, jumpRequest will cause the rigidbody to shoot up into the air, and set jumpRequest to false. That, on its own, would be sufficient... but that's not good enough for me. Come down a few lines with me. -Horizon
         {
             chonkRigidBody.AddForce(Vector2.up * jumpVelocity, ForceMode2D.Impulse);
+            foreach (Rigidbody2D gut in gutsChildren)
+            {
+                gut.AddForce(Vector2.up * jumpVelocity, ForceMode2D.Impulse);
+            }
             jumpRequest = false;
+        }
+        else //If you're not jumping, then this code checks to see if you're grounded or not.
+        {
+            Vector2 boxCenter = (Vector2)transform.position + (Vector2.down * ((playerSize * 2)+groundBoxSize.y)*0.5f);
+            grounded = (Physics2D.OverlapBox(boxCenter, groundBoxSize, 0f, mask) != null);
         }
 
         if(chonkRigidBody.velocity.y < 0) //Now THIS is where the magic happens. This is where we get such magnificent luxuries as "variable jump height" we can only get from every Mario game from the NES onwards. If Chonk is falling, they will fall faster than they rose, which feels better to play. If you jump but only tap the jump button, Chonk won't go as high because gravity is stronger. If you jump and hold the button instead, Chonk will go higher because gravity isn't getting stronger. And if you're neither falling nor rising, gravity goes back to normal.
         {
             chonkRigidBody.gravityScale = fallMultiplier;
         }
-        else if(chonkRigidBody.velocity.y > 0 && !Input.GetButton("Jump"))
+        else if(chonkRigidBody.velocity.y > 0 && !Input.GetMouseButton(0))
         {
             chonkRigidBody.gravityScale = lowJumpMultiplier;
         }
         else
         {
             chonkRigidBody.gravityScale = 1f;
-        }*/
+        }
 
         //As for checking if Chonk is grounded, that's something of a dealer's choice. I got these mechanics from a tutorial series, so here's the link to the ground detection video: https://www.youtube.com/watch?v=CLxXkSIaOAc
+        //EDIT: Turns out I'm the dealer now and I choose box detection.
+
+
     }
 
     Vector2 movementDifference;

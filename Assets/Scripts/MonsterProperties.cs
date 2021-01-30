@@ -26,11 +26,11 @@ public class MonsterProperties : MonoBehaviour
     public Vector3 gutsSizeMin; //How much the guts will shrink.
 
     public AudioMixer musicMixer;
-    public string layerFade1;
-    public string layerFade2;
-    public string layerFade3;
-    public string layerFade4;
-    public string layerFade5;
+    public string layerFade1 = "LayerFade1";
+    public string layerFade2 = "LayerFade2";
+    public string layerFade3 = "LayerFade3";
+    public string layerFade4 = "LayerFade4";
+    public string layerFade5 = "LayerFade5";
 
     void Start()
     {

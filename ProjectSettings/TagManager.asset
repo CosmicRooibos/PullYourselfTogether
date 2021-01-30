@@ -13,8 +13,13 @@ TagManager:
   - UI
   - 
   - 
+<<<<<<< Updated upstream
   - Player
   - 
+=======
+  - GutsCollide
+  - GutsNoCollide
+>>>>>>> Stashed changes
   - 
   - 
   - 

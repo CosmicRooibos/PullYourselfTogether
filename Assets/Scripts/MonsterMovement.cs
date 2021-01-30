@@ -18,6 +18,13 @@ public class MonsterMovement : MonoBehaviour
     Rigidbody2D chonkRigidBody;
     public int forceMultiplier = 10000;
 
+    //Jump Variables
+    public float jumpVelocity;
+    public float fallMultiplier;
+    public float lowJumpMultiplier;
+
+    bool jumpRequest;
+
     //todo: add an accessible speed multiplier for powerups
 
     void Start()
@@ -25,6 +32,15 @@ public class MonsterMovement : MonoBehaviour
         chonkControls.initializeControls();
         chonkRigidBody = gameObject.GetComponent<Rigidbody2D>();
     }
+
+    /*void Update() //Yes, this code needs to be in Update, *not* FixedUpdate. Don't move it into FixedUpdate, or else it will intermittently fail to activate for what I can only describe as "no good reason." Trust me on this one. -Horizon
+    //Also, leaving this code commented out until someone else can review it and make sure it's good.
+    {
+        if (Input.GetButtonDown("Jump"))
+        {
+            jumpRequest = true;
+        }
+    }*/
 
     void FixedUpdate()
     {
@@ -44,6 +60,27 @@ public class MonsterMovement : MonoBehaviour
         //else {
             Approach();
         //}
+
+
+        /*if (jumpRequest) //This code is for executing the jump stuff. When you press the jump button, then jumpRequest will be set to true in Update. Then, in this part of the code, jumpRequest will cause the rigidbody to shoot up into the air, and set jumpRequest to false. That, on its own, would be sufficient... but that's not good enough for me. Come down a few lines with me. -Horizon
+        {
+            chonkRigidBody.AddForce(Vector2.up * jumpVelocity, ForceMode2D.Impulse);
+            jumpRequest = false;
+        }
+
+        if(chonkRigidBody.velocity.y < 0) //Now THIS is where the magic happens. This is where we get such magnificent luxuries as "variable jump height" we can only get from every Mario game from the NES onwards. If Chonk is falling, they will fall faster than they rose, which feels better to play. If you jump but only tap the jump button, Chonk won't go as high because gravity is stronger. If you jump and hold the button instead, Chonk will go higher because gravity isn't getting stronger. And if you're neither falling nor rising, gravity goes back to normal.
+        {
+            chonkRigidBody.gravityScale = fallMultiplier;
+        }
+        else if(chonkRigidBody.velocity.y > 0 && !Input.GetButton("Jump"))
+        {
+            chonkRigidBody.gravityScale = lowJumpMultiplier;
+        }
+        else
+        {
+            chonkRigidBody.gravityScale = 1f;
+        }*/
+        
     }
 
     Vector2 movementDifference;

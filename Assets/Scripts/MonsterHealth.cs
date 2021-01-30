@@ -17,7 +17,7 @@ public class MonsterHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        SetHealthBar();
     }
 
     public void Hurt(float hurt)

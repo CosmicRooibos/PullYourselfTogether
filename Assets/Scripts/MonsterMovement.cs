@@ -80,7 +80,8 @@ public class MonsterMovement : MonoBehaviour
         {
             chonkRigidBody.gravityScale = 1f;
         }*/
-        
+
+        //As for checking if Chonk is grounded, that's something of a dealer's choice. I got these mechanics from a tutorial series, so here's the link to the ground detection video: https://www.youtube.com/watch?v=CLxXkSIaOAc
     }
 
     Vector2 movementDifference;

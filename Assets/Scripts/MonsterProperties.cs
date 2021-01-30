@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//this is for the working copy
 public class MonsterProperties : MonoBehaviour
 {
     public bool jumpActive;
@@ -23,6 +23,13 @@ public class MonsterProperties : MonoBehaviour
     public Vector3 gutsSizeMax; //The original size of each guts ball. 
     public Vector3 gutsSizeMin; //How much the guts will shrink.
 
+    public AudioMixer musicMixer;
+    public string layerFade1;
+    public string layerFade2;
+    public string layerFade3;
+    public string layerFade4;
+    public string layerFade5;
+
     void Start()
     {
         gutsChildren = guts.GetComponentsInChildren<Transform>();
@@ -37,7 +44,7 @@ public class MonsterProperties : MonoBehaviour
     {
         if (Input.GetKeyDown(consumeKey)) //Consume Key is, by default, c. This will fire once, each time you press it.
         {
-            if(healthPickups.Count > 0)
+            if (healthPickups.Count > 0)
             {
                 healthManager.maxHealth -= healthPickups[healthPickups.Count - 1];
                 healthManager.Heal(healthPickups[healthPickups.Count - 1]);
@@ -63,30 +70,40 @@ public class MonsterProperties : MonoBehaviour
     {
         jumpActive = true;
         Debug.Log("Jump Power get!!!");
+        //Fade-in Layer 1
+        StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade1, 2f, 1));
     }
 
     public void SwimAcquired()
     {
         swimActive = true;
         Debug.Log("Swim Power get!!!");
+        //Fade-in Layer 4
+        StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade4, 2f, 1));
     }
 
     public void ClimbAcquired()
     {
         climbActive = true;
         Debug.Log("Climb Power get!!!");
+        //Fade-in Layer 5
+        StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade5, 2f, 1));
     }
 
     public void SqueezeAcquired()
     {
         squeezeActive = true;
         Debug.Log("Squeeze Power get!!!");
+        //Fade-in Layer 2
+        StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade2, 2f, 1));
     }
 
     public void SinkAcquired()
     {
         sinkActive = true;
         Debug.Log("Sink Power get!!!");
+        //Fade-in Layer 3
+        StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade3, 2f, 1));
     }
 
     //Adding generic method:
@@ -97,22 +114,32 @@ public class MonsterProperties : MonoBehaviour
             case eUpgradeType.jump:
                 jumpActive = true;
                 Debug.Log("Jump Power get!!!");
+                //Fade-in Layer 1
+                StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade1, 2f, 1));
                 break;
             case eUpgradeType.sink:
-                jumpActive = true;
-                Debug.Log("Jump Power get!!!");
+                sinkActive = true;
+                Debug.Log("Sink Power get!!!");
+                //Fade-in Layer 3
+                StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade3, 2f, 1));
                 break;
             case eUpgradeType.swim:
-                jumpActive = true;
-                Debug.Log("Jump Power get!!!");
+                swimActive = true;
+                Debug.Log("Swim Power get!!!");
+                //Fade-in Layer 4
+                StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade4, 2f, 1));
                 break;
             case eUpgradeType.squeeze:
-                jumpActive = true;
-                Debug.Log("Jump Power get!!!");
+                squeezeActive = true;
+                Debug.Log("Squeeze Power get!!!");
+                //Fade-in Layer 2
+                StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade2, 2f, 1));
                 break;
             case eUpgradeType.climb:
-                jumpActive = true;
-                Debug.Log("Jump Power get!!!");
+                climbActive = true;
+                Debug.Log("Climb Power get!!!");
+                //Fade-in Layer 5
+                StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade5, 2f, 1));
                 break;
             case eUpgradeType.health:
                 healthManager.maxHealth += val;
@@ -149,3 +176,4 @@ public class MonsterProperties : MonoBehaviour
         }
     }
 }
+

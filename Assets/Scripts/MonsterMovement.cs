@@ -33,15 +33,17 @@ public class MonsterMovement : MonoBehaviour
         FaceTowards(); //not sure how necessary this will be
         //Debug.DrawLine(transform.position, pullDirection);
         //todo: make these controls more robust
+        /*                                              //Jacob's note: I commented this out because holding the button made it unable to move.
         if(chonkControls.button0()){
             Orbify();
         }
         else if(chonkControls.button1()){
             Liquefy();
         }
-        else {
+        */
+        //else {
             Approach();
-        }
+        //}
     }
 
     Vector2 movementDifference;

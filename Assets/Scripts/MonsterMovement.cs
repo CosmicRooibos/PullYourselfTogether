@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 /*
 Attach to chonk, please.
@@ -34,6 +35,11 @@ public class MonsterMovement : MonoBehaviour
 
     public Transform guts;
     public Rigidbody2D[] gutsChildren;
+
+    public AudioSource audioSource;
+    public AudioClip[] audioClipArray;
+    public float volume = 1f;
+    public bool loop = false;
 
     //todo: add an accessible speed multiplier for powerups
 
@@ -74,7 +80,9 @@ public class MonsterMovement : MonoBehaviour
         //else {
             Approach();
         //}
-
+        //Loops the Chonk Move SFX
+        bool loop = true;
+        audioSource.PlayOneShot(audioClipArray[0], 1f);
 
         if (jumpRequest) //This code is for executing the jump stuff. When you press the jump button, then jumpRequest will be set to true in Update. Then, in this part of the code, jumpRequest will cause the rigidbody to shoot up into the air, and set jumpRequest to false. That, on its own, would be sufficient... but that's not good enough for me. Come down a few lines with me. -Horizon
         {
@@ -84,6 +92,9 @@ public class MonsterMovement : MonoBehaviour
                 gut.AddForce(Vector2.up * jumpVelocity, ForceMode2D.Impulse);
             }
             jumpRequest = false;
+            //Plays the Chonk Jump SFX
+            audioSource.Stop();
+            audioSource.PlayOneShot(audioClipArray[1], 1f);
         }
         else //If you're not jumping, then this code checks to see if you're grounded or not.
         {

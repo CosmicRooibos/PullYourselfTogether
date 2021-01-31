@@ -32,6 +32,10 @@ public class MonsterProperties : MonoBehaviour
     public string layerFade4 = "LayerFade4";
     public string layerFade5 = "LayerFade5";
 
+    public AudioSource audioSource;
+    public AudioClip[] audioClipArray;
+    public float volume = 1f;
+
     void Start()
     {
         gutsChildren = guts.GetComponentsInChildren<Transform>();
@@ -51,6 +55,8 @@ public class MonsterProperties : MonoBehaviour
                 healthManager.maxHealth -= healthPickups[healthPickups.Count - 1];
                 healthManager.Heal(healthPickups[healthPickups.Count - 1]);
                 healthPickups.RemoveAt(healthPickups.Count - 1);
+                //Play the Chonk Collect Health SFX
+                audioSource.PlayOneShot(audioClipArray[0], 1f);
             }
         }
 
@@ -59,6 +65,8 @@ public class MonsterProperties : MonoBehaviour
         {
             if (squeezeActive)
                 Squeeze();
+            //Play the Chonk Squish SFX
+            audioSource.PlayOneShot(audioClipArray[2], 1f);
         }
 
         if (Input.GetKeyUp(squeezeKey))
@@ -74,6 +82,8 @@ public class MonsterProperties : MonoBehaviour
         Debug.Log("Jump Power get!!!");
         //Fade-in Layer 1
         StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade1, 2f, 1));
+        //Play the Chonk Collect Upgrade SFX
+        audioSource.PlayOneShot(audioClipArray[1], 1f);
     }
 
     public void SwimAcquired()
@@ -82,6 +92,8 @@ public class MonsterProperties : MonoBehaviour
         Debug.Log("Swim Power get!!!");
         //Fade-in Layer 4
         StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade4, 2f, 1));
+        //Play the Chonk Collect Upgrade SFX
+        audioSource.PlayOneShot(audioClipArray[1], 1f);
     }
 
     public void ClimbAcquired()
@@ -90,6 +102,8 @@ public class MonsterProperties : MonoBehaviour
         Debug.Log("Climb Power get!!!");
         //Fade-in Layer 5
         StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade5, 2f, 1));
+        //Play the Chonk Collect Upgrade SFX
+        audioSource.PlayOneShot(audioClipArray[1], 1f);
     }
 
     public void SqueezeAcquired()
@@ -98,6 +112,8 @@ public class MonsterProperties : MonoBehaviour
         Debug.Log("Squeeze Power get!!!");
         //Fade-in Layer 2
         StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade2, 2f, 1));
+        //Play the Chonk Collect Upgrade SFX
+        audioSource.PlayOneShot(audioClipArray[1], 1f);
     }
 
     public void SinkAcquired()
@@ -106,6 +122,8 @@ public class MonsterProperties : MonoBehaviour
         Debug.Log("Sink Power get!!!");
         //Fade-in Layer 3
         StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade3, 2f, 1));
+        //Play the Chonk Collect Upgrade SFX
+        audioSource.PlayOneShot(audioClipArray[1], 1f);
     }
 
     //Adding generic method:
@@ -118,36 +136,48 @@ public class MonsterProperties : MonoBehaviour
                 Debug.Log("Jump Power get!!!");
                 //Fade-in Layer 1
                 StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade1, 2f, 1));
+                //Play the Chonk Collect Upgrade SFX
+                audioSource.PlayOneShot(audioClipArray[1], 1f);
                 break;
             case eUpgradeType.sink:
                 sinkActive = true;
                 Debug.Log("Sink Power get!!!");
                 //Fade-in Layer 3
                 StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade3, 2f, 1));
+                //Play the Chonk Collect Upgrade SFX
+                audioSource.PlayOneShot(audioClipArray[1], 1f);
                 break;
             case eUpgradeType.swim:
                 swimActive = true;
                 Debug.Log("Swim Power get!!!");
                 //Fade-in Layer 4
                 StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade4, 2f, 1));
+                //Play the Chonk Collect Upgrade SFX
+                audioSource.PlayOneShot(audioClipArray[1], 1f);
                 break;
             case eUpgradeType.squeeze:
                 squeezeActive = true;
                 Debug.Log("Squeeze Power get!!!");
                 //Fade-in Layer 2
                 StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade2, 2f, 1));
+                //Play the Chonk Collect Upgrade SFX
+                audioSource.PlayOneShot(audioClipArray[1], 1f);
                 break;
             case eUpgradeType.climb:
                 climbActive = true;
                 Debug.Log("Climb Power get!!!");
                 //Fade-in Layer 5
                 StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade5, 2f, 1));
+                //Play the Chonk Collect Upgrade SFX
+                audioSource.PlayOneShot(audioClipArray[1], 1f);
                 break;
             case eUpgradeType.health:
                 healthManager.maxHealth += val;
                 healthManager.Heal(0);
                 healthPickups.Add(val);
                 Debug.Log("Max health increased by " + val);
+                //Play the Chonk Collect Health SFX
+                audioSource.PlayOneShot(audioClipArray[0], 1f);
                 break;
             case eUpgradeType.speed:
                 //Integrate with the speed variable

@@ -19030,7 +19030,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8617c216c8ac6142bc5251828502ca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chonk: {fileID: 911651959}
+  chonkCore: {fileID: 911651959}
+  onLandOffset: 0
   cameraOffset: 1.5
 --- !u!1001 &8885799015204617239
 PrefabInstance:

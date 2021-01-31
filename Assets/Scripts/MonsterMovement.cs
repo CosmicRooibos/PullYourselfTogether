@@ -82,7 +82,10 @@ public class MonsterMovement : MonoBehaviour
         //}
         //Loops the Chonk Move SFX
         bool loop = true;
-        audioSource.PlayOneShot(audioClipArray[0], 1f);
+        if (audioSource.isPlaying) {
+            audioSource.Stop();
+        }
+        audioSource.PlayOneShot(audioClipArray[0], 0.5f);
 
         if (jumpRequest) //This code is for executing the jump stuff. When you press the jump button, then jumpRequest will be set to true in Update. Then, in this part of the code, jumpRequest will cause the rigidbody to shoot up into the air, and set jumpRequest to false. That, on its own, would be sufficient... but that's not good enough for me. Come down a few lines with me. -Horizon
         {

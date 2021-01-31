@@ -6776,6 +6776,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas-HealthBar
       objectReference: {fileID: 0}
+    - target: {fileID: 7189870020942296461, guid: fd0b7cb8292930844ba0e6253cbc78d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7189870020942296465, guid: fd0b7cb8292930844ba0e6253cbc78d8,
         type: 3}
       propertyPath: m_Pivot.x
@@ -6904,6 +6909,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997305689683723230, guid: a1745c6265295b74db84afd3d9a3d91c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 30.944286
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997305689683723230, guid: a1745c6265295b74db84afd3d9a3d91c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.34018
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997305689683723230, guid: a1745c6265295b74db84afd3d9a3d91c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.34018
       objectReference: {fileID: 0}
     - target: {fileID: 8997305689683723230, guid: a1745c6265295b74db84afd3d9a3d91c,
         type: 3}
@@ -7323,6 +7343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: squeezeActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8705545706201839156, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8705545707643440712, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}

@@ -13,17 +13,22 @@ public class SoftBody : MonoBehaviour
 
     void Awake()
     {
-        /*
-        points = new Transform[transform.childCount - 1];
-        for (int i = 0; i < transform.childCount - 1; i++)
+        int editorSplines = spriteShape.spline.GetPointCount(); //get the number of splines present in the editor view
+        int resolutionDivisor = 2; //to lower the spline-resolution of chonk's displayed body.  can be 1 for full resolution. set it higher for even less
+        int desiredSplines = (transform.childCount - (transform.childCount % resolutionDivisor))/resolutionDivisor;
+        
+        points = new Transform[desiredSplines];
+
+        for (int i = 0; i <  desiredSplines - 1; i++)
         {
-            points[i] = transform.GetChild(i);
+            points[i] = transform.GetChild(i*resolutionDivisor);
+            if(i >= editorSplines){
+                spriteShape.spline.InsertPointAt(i, points[i].position);
+            }
         }
-        */
         UpdateVertices();
     }
 
-    // Update is called once per frame
     void Update()
     {
         UpdateVertices();
@@ -31,7 +36,7 @@ public class SoftBody : MonoBehaviour
 
     private void UpdateVertices()
     {
-        for (int i = 0; i < points.Length; i++)
+        for (int i = 0; i < points.Length - 1; i++)
         {
             /*
             Vector2 vertex = points[i].localPosition;
@@ -48,7 +53,13 @@ public class SoftBody : MonoBehaviour
                 spriteShape.spline.SetPosition(i, (vertex - towardsCenter * (colliderRadius + splineOffset)));
             }
             */
-            spriteShape.spline.SetPosition(i, points[i].position);
+
+            try{
+                spriteShape.spline.SetPosition(i, points[i].position);
+            }
+            catch{
+
+            }
         }
     }
 }

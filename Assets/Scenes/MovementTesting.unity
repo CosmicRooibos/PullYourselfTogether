@@ -1767,7 +1767,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chonkCore: {fileID: 1031835847}
-  cameraOffset: 2.5
+  onLandOffset: 5
+  cameraOffset: 1.5
 --- !u!1001 &3938146246950082083
 PrefabInstance:
   m_ObjectHideFlags: 0

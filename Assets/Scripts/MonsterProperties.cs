@@ -36,7 +36,7 @@ public class MonsterProperties : MonoBehaviour
     public AudioClip[] audioClipArray;
     public float volume = 1f;
 
-    void Start()
+    void Awake()
     {
         gutsChildren = guts.GetComponentsInChildren<Transform>();
         jumpActive = false;
@@ -44,6 +44,8 @@ public class MonsterProperties : MonoBehaviour
         sinkActive = false;
         climbActive = false;
         squeezeActive = false;
+        jumpActive = GameController.instance.jumpActive;
+        climbActive = GameController.instance.climbActive;
     }
 
     void Update()
@@ -79,6 +81,7 @@ public class MonsterProperties : MonoBehaviour
     public void JumpAcquired()
     {
         jumpActive = true;
+        GameController.instance.jumpActive = true;
         Debug.Log("Jump Power get!!!");
         //Fade-in Layer 1
         StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade1, 2f, 1));
@@ -133,6 +136,7 @@ public class MonsterProperties : MonoBehaviour
         {
             case eUpgradeType.jump:
                 jumpActive = true;
+                GameController.instance.jumpActive = true;
                 Debug.Log("Jump Power get!!!");
                 //Fade-in Layer 1
                 StartCoroutine(FadeMixerGroup.StartFade(musicMixer, layerFade1, 2f, 1));

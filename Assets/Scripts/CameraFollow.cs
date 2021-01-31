@@ -25,7 +25,11 @@ public class CameraFollow : MonoBehaviour
 
     void Update()
     {
-            MoveCamera();
+        if(chonkCore == null)
+        {
+            chonkCore = MonsterHealth.instance.gameObject;
+        }
+        MoveCamera();
     }
 
     Vector3 pullDirection;

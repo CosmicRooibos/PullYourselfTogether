@@ -14,14 +14,14 @@ public class Hazard : MonoBehaviour
     /*
     void Awake()
     {
-        playerHealth = GameController.MyInstance.monsterCore.GetComponent<MonsterHealth>();
+        playerHealth = MonsterHealth.instance;
     }
     */
     void Update()
     {
         if (playerHealth == null)
         {
-            playerHealth = GameController.MyInstance.monsterCore.GetComponent<MonsterHealth>();
+            playerHealth = MonsterHealth.instance;
         }
         /*if (isDamaging)
         {

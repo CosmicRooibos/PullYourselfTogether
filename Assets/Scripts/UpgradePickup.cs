@@ -22,7 +22,7 @@ public class UpgradePickup : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<MonsterBodyPart>() != null)
         {
-            GameController.MyInstance.monsterCore.GetComponent<MonsterProperties>().Upgrade(upgradeType, upgradeValue);
+            GameController.instance.monsterCore.GetComponent<MonsterProperties>().Upgrade(upgradeType, upgradeValue);
             Destroy(this.gameObject);
         }
     }

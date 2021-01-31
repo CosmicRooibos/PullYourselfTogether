@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Downtown.unity
     guid: 279f8ab7118f0124f9d8af8a931251ee
+  - enabled: 1
+    path: Assets/Scenes/Skyscraper.unity
+    guid: da15917c6d9db8a4db2fda276ee9cd2c
   m_configObjects: {}

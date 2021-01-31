@@ -9,7 +9,7 @@ public class HealthPickup : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<MonsterBodyPart>() != null)
         {
-            GameController.MyInstance.monsterCore.GetComponent<MonsterHealth>().Heal(heal);
+            MonsterHealth.instance.Heal(heal);
             Destroy(this.gameObject);
         }
     }

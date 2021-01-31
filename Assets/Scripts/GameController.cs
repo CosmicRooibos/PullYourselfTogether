@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    private static GameController instance;
-
-    public static GameController MyInstance { get { return instance; } }
+    public static GameController instance;
 
     public GameObject monsterCore;
+    public Transform spawnPoint;
 
-    private void Awake()
+    public bool jumpActive = false;
+    public bool climbActive = false;
+
+    void Awake()
     {
         if (instance != null && instance != this)
         {
@@ -19,18 +21,7 @@ public class GameController : MonoBehaviour
         else
         {
             instance = this;
+            DontDestroyOnLoad(gameObject);
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

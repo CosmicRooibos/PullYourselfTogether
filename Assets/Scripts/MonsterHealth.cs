@@ -7,6 +7,7 @@ using UnityEngine.Audio;
 
 public class MonsterHealth : MonoBehaviour
 {
+    public static MonsterHealth instance;
     public float health = 10;
     public float maxHealth = 10;
     public Image healthBarFG;
@@ -20,12 +21,24 @@ public class MonsterHealth : MonoBehaviour
     void Awake()
     {
         health = maxHealth;
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject.transform.parent.gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         SetHealthBar();
+        if (GameController.instance.monsterCore == null)
+        {
+            GameController.instance.monsterCore = this.gameObject;
+        }
     }
 
     public void Hurt(float hurt)

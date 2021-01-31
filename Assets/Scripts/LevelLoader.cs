@@ -8,19 +8,10 @@ public class LevelLoader : MonoBehaviour
     public Animator transition;
     public float transitionTime = 1f;
 
-    // Start is called before the first frame update
-    void Start()
+    //When character collides with goal, it triggers the next level
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetMouseButtonDown(0))
-        {
-            LoadNextLevel();
-        }
+        LoadNextLevel();
     }
 
     public void LoadNextLevel()

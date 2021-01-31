@@ -330,13 +330,13 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8705545706201839167, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
     type: 3}
-  m_PrefabInstance: {fileID: 8705545706159924984}
+  m_PrefabInstance: {fileID: 8850774375638025029}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1031835852 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8705545706201839156, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
     type: 3}
-  m_PrefabInstance: {fileID: 8705545706159924984}
+  m_PrefabInstance: {fileID: 8850774375638025029}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031835847}
   m_Enabled: 1
@@ -1670,12 +1670,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 133b90b47235e6d48a3811100cc25b1f, type: 3}
---- !u!4 &2065395621 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4792468005455930120, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
-    type: 3}
-  m_PrefabInstance: {fileID: 8705545706159924984}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2129800268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,8 +1766,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8617c216c8ac6142bc5251828502ca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chonk: {fileID: 1031835847}
-  cameraOffset: 2.5
+  chonkCore: {fileID: 1031835847}
+  onLandOffset: 5
+  cameraOffset: 1.5
 --- !u!1001 &3938146246950082083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1917,7 +1912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd45707f515dd09458ac61b733ae192b, type: 3}
---- !u!1001 &8705545706159924984
+--- !u!1001 &8850774375638025029
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1986,28 +1981,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8705545706201839156, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 2065395621}
-    - target: {fileID: 8705545706201839156, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
-        type: 3}
       propertyPath: healthBarFG
       value: 
       objectReference: {fileID: 1169437911}
-    - target: {fileID: 8705545706201839156, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
-        type: 3}
-      propertyPath: respawnPoint
-      value: 
-      objectReference: {fileID: 938025179}
-    - target: {fileID: 8705545707044263958, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8705545707643440712, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
-        type: 3}
-      propertyPath: m_ShapeTexture
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c748ff8d1b437a54f8f14ce9ea62b67c, type: 3}

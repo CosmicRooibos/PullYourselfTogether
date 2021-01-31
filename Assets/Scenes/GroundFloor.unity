@@ -16683,6 +16683,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8705545706201839156, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8705545706201839156, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
       propertyPath: healthBarFG
       value: 
       objectReference: {fileID: 173791483}
@@ -17062,7 +17067,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 787513744}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911651959}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd9717348bd2036449431fd2ce1d4efd, type: 3}
   m_Name: 
@@ -17410,6 +17415,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas-HealthBar
       objectReference: {fileID: 0}
+    - target: {fileID: 7189870020942296461, guid: fd0b7cb8292930844ba0e6253cbc78d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7189870020942296465, guid: fd0b7cb8292930844ba0e6253cbc78d8,
         type: 3}
       propertyPath: m_Pivot.x
@@ -17520,41 +17530,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2092950381}
-    - target: {fileID: 7189870020942296466, guid: fd0b7cb8292930844ba0e6253cbc78d8,
-        type: 3}
-      propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7189870020942296467, guid: fd0b7cb8292930844ba0e6253cbc78d8,
-        type: 3}
-      propertyPath: m_ScaleFactor
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7189870021033012416, guid: fd0b7cb8292930844ba0e6253cbc78d8,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -195.00977
-      objectReference: {fileID: 0}
-    - target: {fileID: 7189870021424206920, guid: fd0b7cb8292930844ba0e6253cbc78d8,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -202.00977
-      objectReference: {fileID: 0}
-    - target: {fileID: 7189870021424206927, guid: fd0b7cb8292930844ba0e6253cbc78d8,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7189870021424206927, guid: fd0b7cb8292930844ba0e6253cbc78d8,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7189870021424206927, guid: fd0b7cb8292930844ba0e6253cbc78d8,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd0b7cb8292930844ba0e6253cbc78d8, type: 3}
 --- !u!1 &1253162174

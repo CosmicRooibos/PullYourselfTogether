@@ -2568,7 +2568,7 @@ MonoBehaviour:
   gutsChildren: []
   audioSource: {fileID: 3863927133390133742}
   audioClipArray:
-  - {fileID: 8300000, guid: a673f7222296b7149b6b142b7131fbf1, type: 3}
+  - {fileID: 0}
   - {fileID: 8300000, guid: ce74f52bb08ae1044b6a7979cd873566, type: 3}
   volume: 1
   loop: 0
@@ -2591,7 +2591,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8705545706201839167}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd9717348bd2036449431fd2ce1d4efd, type: 3}
   m_Name: 

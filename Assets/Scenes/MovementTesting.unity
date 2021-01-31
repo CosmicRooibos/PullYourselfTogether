@@ -339,7 +339,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 8850774375638025029}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031835847}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd9717348bd2036449431fd2ce1d4efd, type: 3}
   m_Name: 
@@ -755,6 +755,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterCore: {fileID: 1031835847}
+  spawnPoint: {fileID: 0}
+  jumpActive: 0
+  climbActive: 0
 --- !u!1001 &1294000033
 PrefabInstance:
   m_ObjectHideFlags: 0

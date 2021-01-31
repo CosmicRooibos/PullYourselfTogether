@@ -296,6 +296,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbc8e374c7e9e874ab2a879be9337840, type: 3}
+--- !u!1 &938025178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 938025179}
+  m_Layer: 0
+  m_Name: RespawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &938025179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938025178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.13, y: 0.2, z: -5.1904297}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1031835847 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8705545706201839167, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
@@ -1640,6 +1670,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 133b90b47235e6d48a3811100cc25b1f, type: 3}
+--- !u!4 &2065395621 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4792468005455930120, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 8705545706159924984}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2129800268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,9 +1986,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8705545706201839156, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2065395621}
+    - target: {fileID: 8705545706201839156, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
       propertyPath: healthBarFG
       value: 
       objectReference: {fileID: 1169437911}
+    - target: {fileID: 8705545706201839156, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 938025179}
+    - target: {fileID: 8705545707044263958, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8705545707643440712, guid: c748ff8d1b437a54f8f14ce9ea62b67c,
         type: 3}
       propertyPath: m_ShapeTexture

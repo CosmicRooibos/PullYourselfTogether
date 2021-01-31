@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MonsterHealth : MonoBehaviour
 {
     public float health = 10;
     public float maxHealth = 10;
     public Image healthBarFG;
+    //public Transform player;
+    //public Transform respawnPoint;
     
     void Awake()
     {
@@ -34,7 +37,10 @@ public class MonsterHealth : MonoBehaviour
 
     public void Kill()
     {
+        Debug.Log("killed");
         /* todo: make this disable movement and show a game over screen, maybe some gross particle effects*/
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //Application.LoadLevel(Application.loadedLevel);
     }
 
     public void Heal(float heal)

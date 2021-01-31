@@ -2568,7 +2568,7 @@ MonoBehaviour:
   gutsChildren: []
   audioSource: {fileID: 3863927133390133742}
   audioClipArray:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: a673f7222296b7149b6b142b7131fbf1, type: 3}
   - {fileID: 8300000, guid: ce74f52bb08ae1044b6a7979cd873566, type: 3}
   volume: 1
   loop: 0
